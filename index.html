@@ -15,6 +15,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script>
     var myip="";
+
+       $.ajax({
+        url: '//freegeoip.net/json/',
+        type: 'POST',
+        dataType: 'jsonp',
+        success: function(location) {
+            alert(location.ip);
+        }
+    });
+       
       function notifyMe() {
         if (Notification.permission !== "granted")
           Notification.requestPermission();
