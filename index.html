@@ -14,18 +14,18 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script>
-    var myip="";
+    var mgyip="";
 
        $.ajax({
         url: '//freegeoip.net/json/',
         type: 'POST',
         dataType: 'jsonp',
         success: function(location) {
-            myip = location.ip;
+            notifyMe(location.ip);
         }
     });
 
-      function notifyMe() {
+      function notifyMe(myip) {
         if (Notification.permission !== "granted")
           Notification.requestPermission();
         else {
@@ -36,11 +36,6 @@
         }
       }
 
-      $(document).ready(function(){
-
-        notifyMe();
-
-      });
     </script>
 
   </head>
