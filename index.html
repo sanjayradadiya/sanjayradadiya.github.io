@@ -12,6 +12,27 @@
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script>
+      function notifyMe() {
+        if (Notification.permission !== "granted")
+          Notification.requestPermission();
+        else {
+          var notification = new Notification('Notification title', {
+            icon: 'http://cdn.sstatic.net/stackexchange/img/logos/so/so-icon.png',
+            body: "Hey there! You've been notified!",
+          });
+
+          notification.onclick = function () {
+            window.open("http://stackoverflow.com/a/13328397/1269037");      
+          };
+
+        }
+
+        (function(){
+
+           notifyMe();
+        });
+    </script>
 
   </head>
   <body>
