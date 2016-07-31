@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://l2.io/ip.js?var=myip"></script>
     <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,7 +20,7 @@
         else {
           var notification = new Notification('Sanjay Radadiya', {
             icon: 'https://sanjayradadiya.github.io/images/photo.jpg',
-            body: "Hey there! welcome to my profile!",
+            body: "Hey '"+myip+"' welcome to my profile!",
           });
         }
       }
