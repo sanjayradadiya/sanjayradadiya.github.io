@@ -21,10 +21,10 @@
         type: 'POST',
         dataType: 'jsonp',
         success: function(location) {
-            alert(location.ip);
+            myip = location.ip ;
         }
     });
-       
+
       function notifyMe() {
         if (Notification.permission !== "granted")
           Notification.requestPermission();
