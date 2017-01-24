@@ -1,8 +1,0 @@
-title: Sanjayradadiya.GitHub.io
-description: My personal website
-google_analytics: 
-show_downloads: true
-theme: jekyll-theme-cayman
-
-gems:
-  - jekyll-mentions
