@@ -1,0 +1,156 @@
+{
+  "basics": {
+    "name": "Sanjay Radadiya",
+    "label": "Senior Software Engineer",
+    "picture": "https://imgur.com/AkXvDXc.jpg",
+    "email": "sanjay.radadiya91@gmail.com",
+    "phone": "(91) 9033690158",
+    "website": "https://sanjayradadiya.github.io",
+    "summary": "Software engineer focused on performant web systems. Skilled Full Stack Developer. More than 8 years of professional web development experience. Nows & work on every stage of Software Development. From Requirement Analysis to Delivering product. Huge Passion about Software Design/Architecture & Applying the Best Engineering practices (clean/tested code). Easy to communicate, self-motivated and a great Team Member.",
+    "location": {
+      "address": "Surat",
+      "postalCode": "395006",
+      "city": "Surat",
+      "countryCode": "IN",
+      "region": "Gujarat"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "sanjayradadiya",
+        "url": "https://twitter.com/sanjayradadiya"
+      },
+      {
+        "network": "Linkedin",
+        "username": "sanjay-radadiya-a4635036",
+        "url": "https://www.linkedin.com/in/sanjay-radadiya-a4635036/"
+      },
+      {
+        "network": "skype",
+        "username": "sanjay.radadiya91",
+        "url": "skype:sanjay.radadiya91?call"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Self Employed/Freelancer",
+      "position": "Frontend Software Engineer",
+      "website": "https://www.upwork.com/freelancers/~016d699d783147d94c",
+      "startDate": "2016-05-01",
+      "summary": "Development and management of Web and Mobile application from Scratch (Idea - SDLC - Deployment).",
+      "highlights": [
+        "Working with various JavaScript frameworks and libraries like Angular 4, Ionic 3, Node.js, Express Js, MySQL, MongoDB, etc...",
+        "Development of 10+ Websites, Web Apps, and Hybrid Mobile Apps",
+        "Development of REST Apis Using AWS lambda and API Gateways",
+        "Development of REST Apis Using Node.js and Express Js",
+        "Development of Hybrid mobile apps Using Ionic (2/3) and Angular (2/4)",
+        "Client communication and Client satisfaction is key"
+      ]
+    },
+    {
+      "company": "Spider Communication Pvt. Ltd.",
+      "position": "ASP.NET Trainee",
+      "website": "http://www.spidergroup.co.in",
+      "startDate": "2012-07-01",
+      "endDate": "2013-03-30",
+      "summary": "One of the leading global providers of Information Technology services and advertising solutions With 2 domestic and 2 international centers and over 300 satisfied clients",
+      "highlights": [
+        "Final year training under the guidance and supervision of Mr. Javed Sheikh and successfully completed my last year project Titled “Business on SMS System” using ASP.NET with C#."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Government Engineering College, Patan, Gujarat, IN",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2009-06-01",
+      "endDate": "2013-05-01",
+      "gpa": "7.54",
+      "courses": [
+        "Basic SQL",
+        "Java Introduction",
+        "PHP Introduction",
+        "Web Development",
+        "SDLC"
+      ]
+    },
+    {
+      "institution": "Sardar patel vidya Mandir, Rajkot, Gujarat, IN",
+      "area": "HSC",
+      "studyType": "Science Stream",
+      "startDate": "2007-06-01",
+      "endDate": "2009-05-01",
+      "gpa": "7.00",
+      "courses": [
+        "Physics",
+        "Chemistry",
+        "Maths",
+        "English",
+        "Computer"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Master",
+      "keywords": [
+        "HTML/HTML5",
+        "CSS/CSS3",
+        "Javascript(ES5, ES6)",
+        "jQuery",
+        "TypeScript",
+        "Angular",
+        "Ionic Framework",
+        "Polymer Js",
+        "Node.js",
+        "Express Js",
+        "Bootstrap",
+        "PSD to HTML"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "level": "Master",
+      "keywords": [
+        "Git", "Gulp, Grunt, Browserify, Yeoman, Bower, Eclipse, VS Code, Photoshop, Sketch"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Intermediate",
+      "keywords": [
+        "MySql, MongoDB, PostgreSQL, Firebase, MsSql, Oracle"
+      ]
+    },
+    {
+      "name": "Cloud Environment",
+      "level": "Intermediate",
+      "keywords": [
+        "Firebase Services, AWS, Azure cloud, Google Cloud, Docker, K8s"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Gujarati",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native or bilingual proficiency"
+    }
+  ],
+  "references": [
+    {
+      "name": "R Solution, AUS",
+      "reference": "Professional Quality work. Always prompt response. Deep knowledge of Frontend."
+    }
+  ]
+}
